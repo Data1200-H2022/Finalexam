@@ -264,6 +264,10 @@ Container consists of:
     grid-column: 1;
     grid-row:1 ;
 }
+.conisiting div p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
 
 /* profile cards*/
 

@@ -121,11 +121,18 @@ header:after {
   position: absolute;
 }
 /*Grid stlying and everything in*/
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   
   .wrapper {
     grid-template-columns: repeat(2, 1fr 2fr);
     margin: 24px auto;
+  }
+  .h2{
+    text-align: center;
+  }
+  .featured-image-1 {
+    width: 100%;
+    grid-row: 2 / 3;
   }
   
   .header {
@@ -134,7 +141,7 @@ header:after {
   }
   
   .featured-image-1 {
-    grid-row: 1 / 3;
+    grid-row: 1 / 2;
   }
   
   .article-1 {
