@@ -39,21 +39,17 @@
     margin-top: 50px;
     font-size: 20px;
      color: var(--text-color);
-
 }
 .container1 h3{
 color: var(--second-bg-color);
 }
 .container1 p{
-
 color: var(--text-color)
-
 }
 .imgg{
     background-image: url(https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     display: inline-block;
     box-shadow:  0px 18px rgb(14 52 54 / 20%);
-    
     background-color: white;
     width: 50%;
     height: 500px;
@@ -137,11 +133,9 @@ color: var(--text-color)
 }
 
 @media  (max-width :990px) {
-
     .innhold{
         width: auto;
     }
-
     .container2 input , .container2 select{
         cursor: pointer;
         height: 40px;
@@ -149,8 +143,6 @@ color: var(--text-color)
         outline: none;
         border: none;
         border-bottom:  0px 18px rgb(14 52 54 / 20%);
-
-
 }
 
    
@@ -271,12 +263,10 @@ text-align: center;
         height: 125px;
         width: 125px;
     }
-
 }
 /* this was added specifically to work with the galaxy fold.*/
 @media(max-width: 280px){
     .menu-item-heading{
         font-size: 13px;
     }
-    
 }
