@@ -31,27 +31,25 @@
     width: 50%;
     height: 500px;
     vertical-align: middle;
+    align-items: center;
     text-align: center;
 }
 
 .container1 h1{
+    margin-top: 50px;
     font-size: 20px;
      color: var(--text-color);
-
 }
 .container1 h3{
 color: var(--second-bg-color);
 }
 .container1 p{
-
 color: var(--text-color)
-
 }
 .imgg{
     background-image: url(https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     display: inline-block;
     box-shadow:  0px 18px rgb(14 52 54 / 20%);
-    
     background-color: white;
     width: 50%;
     height: 500px;
@@ -73,6 +71,7 @@ color: var(--text-color)
     margin: 15px;
 }
 .container2 h1{
+    margin-top: 50px;
     font-family: 'Poppins', sans-serif;
 
     color: var(--second-color)
@@ -89,16 +88,14 @@ color: var(--text-color)
         height: 40px;
         width: 30%;
         outline: none;
-        border: none;
-        border-bottom:  0px 18px rgb(14 52 54 / 20%);
-
-
+        border-top : none;
+        border-left: none;
+        border-right: none;
 }
 .container2 select:hover, .container2 input:hover{
   animation: pulse 1s;
   box-shadow:0px 2px rgb(14 52 54 / 20%);
   color:#000;
-
 }
 
 .container2 select option{
@@ -106,7 +103,8 @@ color: var(--text-color)
 }
 
 .container2 button{
-    background-color: var(--second-bg-color);
+    color: #fff;
+    background-color: var(--second-color);
     box-shadow:  0px 2px rgb(14 52 54 / 20%);
     width: 30%;
     height: 30px;
@@ -119,9 +117,10 @@ color: var(--text-color)
 .container2 button:focus {
   animation: pulse 1s;
   box-shadow: 0px 2px rgb(14 52 54 / 20%) transparent;
-  background:#fff;
-  box-shadow:0px 2px rgb(14 52 54 / 20%);;
-  color:#000;
+  background: var(--maim-color);
+  box-shadow:0px 2px rgb(14 52 54 / 20%);
+  color: #fff;
+  
 }
 @media (min-width : 1300px){
     .innhold {
@@ -130,59 +129,23 @@ color: var(--text-color)
     }
 }
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--hover); }
+  0% { box-shadow: 0 0 0 0 var(--second-text-color); }
 }
 
 @media  (max-width :990px) {
-
     .innhold{
         width: auto;
     }
-
-
-
-    /* .innhold{
-        width: auto;
-    }
-    .container1{
-        width: auto;
-    }
-    .imgg{
-        width: 0;
-        height: 0;
-    }   
-    section{
-        max-width: auto;
-    }
-    
-    .containers{
-        width: auto;
-        display: flex;
-        justify-content: center;
-
-    }
-    
-    .container2{
-        height: fit-content;
-        width: 100px ;
-        margin: 0;
-        padding: 0;
-    }
-    .container2 div{
-           display: grid;
-
-
-    }
-    .container2 button{
-        width: 200px;;
-
-    }
     .container2 input , .container2 select{
-        width : 90%;
+        cursor: pointer;
+        height: 40px;
+        width: 50%;
         outline: none;
         border: none;
-        border-bottom:   0px 18px rgb(14 52 54 / 20%);;
-    } */
+        border-bottom:  0px 18px rgb(14 52 54 / 20%);
+}
+
+   
 }
 @media (max-width: 500px){
     .innhold{
@@ -300,12 +263,10 @@ text-align: center;
         height: 125px;
         width: 125px;
     }
-
 }
 /* this was added specifically to work with the galaxy fold.*/
 @media(max-width: 280px){
     .menu-item-heading{
         font-size: 13px;
     }
-    
 }
