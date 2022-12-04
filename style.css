@@ -44,7 +44,12 @@
 color: var(--second-bg-color);
 }
 .container1 p{
-color: var(--text-color)
+color: var(--text-color);
+word-spacing: 4px;
+}
+.container1 p a{
+    text-decoration: underline;
+    color: white;
 }
 .imgg{
     background-image: url(https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -176,7 +181,7 @@ color: var(--text-color)
         align-items: center;
  }
  .container2 button{
-     width: 200px;;
+     width: 200px;
 
  }
  .container2 input , .container2 select{
