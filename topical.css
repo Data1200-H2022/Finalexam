@@ -58,9 +58,11 @@ flex: 1;
 width: 40%;
 display: inline-block;
 vertical-align: middle;
-text-align: center;
 box-shadow: var(--box-shadow);
 
+}
+.child h2{
+    text-align: center;
 }
 
 .right{
