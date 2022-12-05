@@ -197,8 +197,6 @@
         border-bottom:0px solid var(--maim-color) ;
         text-align: center;
     }
-    .access-home-text-1, .access-home-text-2 {
-    }
     /*Topical @media 500px*/
     .access-topical{
         display: block;
