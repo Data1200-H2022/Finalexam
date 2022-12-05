@@ -19,6 +19,7 @@
     width: 1300px;
     box-shadow: var(--second-box-shadow);
 }
+
 .containers{
   width: 100%;
       display: flex;
