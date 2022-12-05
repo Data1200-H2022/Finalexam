@@ -61,6 +61,7 @@ word-spacing: 4px;
     color: white;
 }
 .imgg{
+    /* This image was taken from https://unsplash.com/photos/BCkLxilDvJU , by Niels Stahl */
     background-image: url(https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     display: inline-block;
     box-shadow:  0px 18px rgb(14 52 54 / 20%);
