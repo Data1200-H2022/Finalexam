@@ -81,7 +81,7 @@
 .accesis-container div h1{
     font: 1.5rem;
     margin: 2rem;
-    text-align: center;
+    padding-left:1rem ;
 }
 /* Topical Page Accessibility*/
 .access-topical {
@@ -185,6 +185,9 @@
         margin:  5px;
         padding: 0;
     }
+    .accesis-container div h1{
+        text-align: center;
+    }
     .access-home{
         padding: 1rem;
         max-width: auto;
@@ -194,8 +197,8 @@
         justify-content: center;
     }
     .access-home-text-1 h1{
-        border-bottom:0px solid var(--maim-color) ;
         text-align: center;
+        padding-left: 0;
     }
     /*Topical @media 500px*/
     .access-topical{
