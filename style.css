@@ -135,6 +135,7 @@ word-spacing: 4px;
     height: 50px;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 .container2 button:hover,
 .container2 button:focus {
