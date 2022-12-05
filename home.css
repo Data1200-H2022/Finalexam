@@ -154,6 +154,7 @@ Container consists of:
     margin-top: 10px;
 }
 .about-img {
+    /* This image was taken from https://www.pexels.com/photo/house-lights-turned-on-106399/ , by Binyamin Mellish */
     background: url(image/house1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,6 +218,7 @@ Container consists of:
     align-items: center;
 }
 .activities-img-1 {
+    /* This image was taken from https://www.pexels.com/photo/asian-women-sitting-at-table-with-delicious-food-5710182/ , by Sam Lion */
     background: url(image/restaurant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,6 +228,7 @@ Container consists of:
     border-radius: 3rem 0 3rem 3rem;
 }
 .activities-img-2 {
+    /* This image was taken from https://www.pexels.com/photo/men-sitting-at-table-with-computers-6803523/ , by Cottonbrio Studio*/
     background: url(image/pexels-cottonbro-studio-6803523.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,7 +244,7 @@ Container consists of:
     padding: 2rem;
 }
 .activities-img-3 {
-    /* photo has been downloaded from https://www.pexels.com/photo/compound-lighted-with-string-lights-382297/*/
+    /* This image was taken from https://www.pexels.com/photo/compound-lighted-with-string-lights-382297/ , by Salah Alawadhi*/
     background: url(image/pexels-salah-alawadhi-382297.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,6 +254,7 @@ Container consists of:
     border-radius: 3rem 0 3rem  3rem;
 }
 .activities-img-4 {
+    /* This image was taken from https://www.pexels.com/photo/room-chair-lot-356065/ , by Pixabay */
     background: url(image/pexels-pixabay-356065.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,9 +294,11 @@ Container consists of:
     border-radius: 2rem 0;
 }
 #Wedding{
+    /* This image was taken from https://www.istockphoto.com/photo/3d-illustration-of-smiling-african-american-woman-with-laptop-sitting-in-armchair-gm1298353964-391230083 , by iStock */
     background: url(image/profile1.jpg)center / cover;
 }
 #Restaurant{
+    /* This image was taken from https://www.istockphoto.com/photo/3d-illustration-of-smiling-man-with-laptop-sitting-in-armchair-and-showing-gesture-gm1227086517-361767627 , by iStock */
     background: url(image/profile2.jpg)center / cover;
 }
 #Party{
