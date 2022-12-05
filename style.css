@@ -16,13 +16,13 @@
 }
 
 .innhold{
-    width: 1300px;
+    max-width: 1300px;
     box-shadow: var(--second-box-shadow);
 }
 
 .containers{
   width: 100%;
-      display: flex;
+  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -142,20 +142,23 @@ word-spacing: 4px;
   color: #fff;
   
 }
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 var(--second-text-color); }
+  }
+
+
 @media (min-width : 1300px){
     .innhold {
         margin-left: auto;
         margin-right: auto;
     }
 }
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--second-text-color); }
-}
 
 @media  (max-width :990px) {
     .innhold{
         width: auto;
     }
+  
     .container2 input , .container2 select{
         cursor: pointer;
         height: 40px;
