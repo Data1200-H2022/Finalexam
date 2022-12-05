@@ -38,6 +38,10 @@
     left: 10px;
     bottom: 10px;
     position: absolute;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    
 }
 
 .parent{
